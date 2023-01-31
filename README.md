@@ -36,20 +36,23 @@
 -->
 
 1. **January 2023 - Present: Yearn Mellow-Gearbox_wETH Strategy** - in private repo currently
+
 2. **January 2023 - Present: [Standardized Oracle System]()** - in private repo currently
-3. **March 2022 - January 2023: Ekonomia Technologies contributions to Photon Finance Protocol** - Smart Contract Development && Partnerships Integration (see [architecture schematic](https://drive.google.com/file/d/1cNvRpRHazSg40sw10evm_sVobBsfroec/view?usp=share_link) & [whitepaper](https://drive.google.com/file/d/1nWtAZnyW2famK8JDk3CNW-0Yzv_w3UFa/view?usp=share_link) here for reference. Highlighted PRs below showcasing conceptual design, implementation, reviewing, && testing for various contracts:
+
+3. **March 2022 - January 2023: Ekonomia Technologies core contributions to Photon Finance Protocol** - Smart Contract Development && Partnerships Integration (see [architecture schematic](https://drive.google.com/file/d/1cNvRpRHazSg40sw10evm_sVobBsfroec/view?usp=share_link) & [whitepaper](https://drive.google.com/file/d/1nWtAZnyW2famK8JDk3CNW-0Yzv_w3UFa/view?usp=share_link) here for reference. Highlighted PRs below showcase my past experience in conceptual design, implementation, reviewing, && testing for various contracts:
+
     - **[ModuleManager.sol](https://github.com/ekonomia-tech/protocol-alpha/pull/49)** :
-      - The Module Manager acts as the intermediary between the Modules and the
+      - The Module Manager acted as the intermediary between the Modules and the
 Kernel.
     - **[*Genesis TWAP Oracle for stablecoin, governance token, and possibly other modules](https://github.com/ekonomia-tech/protocol-alpha/pull/44)** : 
-      - Oracle exposing USD/PHO price using v1 Curve PHO/FraxBP Metapool TWAP Pair Oracle && USD PriceFeeds (USD/FRAX && USD/USDC). Initial design was an oracle aggregator w/ built in contingencies for a modular oracle system to be used throughout protocol. Simplified to carry out an iterative design process.
+      - Oracle exposed USD/PHO price using v1 Curve PHO/FraxBP Metapool TWAP Pair Oracle && USD PriceFeeds (USD/FRAX && USD/USDC). Initial design was an oracle aggregator w/ built in contingencies for a modular oracle system to be used throughout protocol. It was simplified to carry out an iterative design process.
     - **[PIDController.sol, Pool.sol, Share.sol inspired from Frax && wrote foundry tests mainly for PIDController.t.sol](https://github.com/ekonomia-tech/protocol-alpha/pull/11)** : 
-      - Initial conceptual takes on use of a PID Controller within stablecoin mechanism design for peg control similar to FRAX foundational tech.
+      - Developed the initial conceptual designs of a PID Controller within stablecoin mechanism design for peg control similar to FRAX foundational tech. 
     - **[Liquity Subgraph for Reputation Scoring](https://github.com/ekonomia-tech/lending-subgraph-standard/pull/8)** : 
-      - Create and deploy the first iteration of the liquity subgraph that follows the "Lending Subgraph Standard" schema. It was meant to be used for a potential reputation scoring system within early iterations of Photon protocol where lending and borrowing rates would differ based on on-chain reputation scores from accrued & ongoing on-chain activity.
-  4. **March 2022 - [Pak Subgraph](https://github.com/squirtleDevs/subgraphs)** : Implement my first subgraph whilst thinking about perspective & use cases of end-user
+      - Created and deployed the first iteration of the liquity subgraph that follows the "Lending Subgraph Standard" schema. It was meant to be used for a potential reputation scoring system within early iterations of Photon protocol where lending and borrowing rates would differ based on on-chain reputation scores from accrued & ongoing on-chain activity.     
+  4. **March 2022 - [Pak Subgraph](https://github.com/squirtleDevs/subgraphs)** : Implemented my first subgraph whilst thinking about perspective & use cases of end-user.
 
-  *TWAP implementation found not suitable for curve, so implemented other corrections. Spun out to now deeper understanding && research for a generic oracle setup for all protocols to use.
+  _*TWAP implementation found not suitable for curve, so implemented other corrections. Spun out to now deeper understanding && research for a generic oracle setup for all protocols to use._
  </details>
 
 
