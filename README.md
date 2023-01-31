@@ -23,7 +23,7 @@
    - Smart Contract Work (Solidity): Yearn strategies && general oracle design
    - Technical Writing: [technical threads](https://typefully.com/t/T3CNVzI) for Yearn, Balancer, DAO tooling, Subgraphs, && NFTs
    - Developer Advocacy: [beginner tutorials](https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-4-dex) & more advanced tutorials about integrating into actual DeFi protocols for BUIDL GUIDL
-- 👨🏻‍💻 Recent work: contributed to Photon, a decentralized stablecoin protocol (see pinned repos && CV Details below for highlights) 
+- 👨🏻‍💻 Recent work: core contributor to Photon, a decentralized stablecoin protocol (see pinned repos && CV Details below for highlights) 
 - ⚡ Fun facts: I've hitch hiked in Iceland, and was CTO of a hockey equipment startup in the NHL (but can't stop on skates 🤷🏻‍♂️)
 
 ---
