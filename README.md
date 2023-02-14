@@ -35,9 +35,9 @@
 <!-- 
 -->
 
-1. **January 2023 - Present: Yearn Mellow-Gearbox_wETH Strategy** - in private repo currently
+1. **January 2023 - Present: [Yearn Mellow-Gearbox_wETH Strategy](https://github.com/umphams/yearn_mellow-gearbox-strategy)**
 
-2. **January 2023 - Present: [Standardized Oracle System]()** - in private repo currently
+2. **January 2023 - Present: Standardized Oracle System** - in private repo currently
 
 3. **March 2022 - January 2023: Ekonomia Technologies core contributions to Photon Finance Protocol** - Smart Contract Development && Partnerships Integration (see [architecture schematic](https://drive.google.com/file/d/1cNvRpRHazSg40sw10evm_sVobBsfroec/view?usp=share_link) & [whitepaper](https://drive.google.com/file/d/1nWtAZnyW2famK8JDk3CNW-0Yzv_w3UFa/view?usp=share_link) here for reference. Highlighted PRs below showcase my past experience in conceptual design, implementation, reviewing, && testing for various contracts:
 
@@ -49,8 +49,11 @@ Kernel.
     - **[PIDController.sol, Pool.sol, Share.sol inspired from Frax && wrote foundry tests mainly for PIDController.t.sol](https://github.com/ekonomia-tech/protocol-alpha/pull/11)** : 
       - Developed the initial conceptual designs of a PID Controller within stablecoin mechanism design for peg control similar to FRAX foundational tech. 
     - **[Liquity Subgraph for Reputation Scoring](https://github.com/ekonomia-tech/lending-subgraph-standard/pull/8)** : 
-      - Created and deployed the first iteration of the liquity subgraph that follows the "Lending Subgraph Standard" schema. It was meant to be used for a potential reputation scoring system within early iterations of Photon protocol where lending and borrowing rates would differ based on on-chain reputation scores from accrued & ongoing on-chain activity.     
-  4. **March 2022 - [Pak Subgraph](https://github.com/squirtleDevs/subgraphs)** : Implemented my first subgraph whilst thinking about perspective & use cases of end-user.
+      - Created and deployed the first iteration of the liquity subgraph that follows the "Lending Subgraph Standard" schema. It was meant to be used for a potential reputation scoring system within early iterations of Photon protocol where lending and borrowing rates would differ based on on-chain reputation scores from accrued & ongoing on-chain activity.   
+      
+4. **March 2022 - [Pak Subgraph](https://github.com/squirtleDevs/subgraphs)** : Implemented my first subgraph whilst thinking about perspective & use cases of end-user.
+  
+5. **January 2022 - Present [BUIDL GUIDL Contributor](https://buidlguidl.com/builders/0x59ea223b48f0E1B6AdDD86cE6551dC44E2c7cb75)**
 
   _*TWAP implementation found not suitable for curve, so implemented other corrections. Spun out to now deeper understanding && research for a generic oracle setup for all protocols to use._
  </details>
